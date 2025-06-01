@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Backover';
+  src: url('fonts/Backover.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  background: url('Fondo.jpg') no-repeat center top;
+  background-size: cover;
+  color: #000;
+}
+
+.container {
+  background-color: white;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  width: 150px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.product {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+.product img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.product-info {
+  flex-grow: 1;
+}
+
+.product button {
+  padding: 10px;
+  margin: 5px 10px 5px 0;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cart {
+  text-align: right;
+  font-size: 1.2em;
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cart button {
+  background-color: #dc3545;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  background: #f1f1f1;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  margin: 5px 0;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>El Jardín de los Sueños</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="Logo.jpg" alt="Logo del Jardín de los Sueños">
+      <h1>El Jardín de los Sueños</h1>
+    </header>
+
+    <div class="product">
+      <img src="planta1.jpg" alt="Suculenta">
+      <div class="product-info">
+        <h2>Suculenta</h2>
+        <p>Son muy resistentes a la sequía y fáciles de cuidar. Tienen formas y colores muy variados, lo que las hace ideales para decoración.</p>
+        <p>Precio: $35</p>
+        <button onclick="addToCart(35, 'Suculenta')">Agregar al carrito</button>
+        <button onclick="buyNow(35, 'Suculenta')">Comprar ya</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="planta2.jpg" alt="Flores">
+      <div class="product-info">
+        <h2>Flores</h2>
+        <p>Son coloridas y fragantes y aportan belleza a jardines y espacios interiores.</p>
+        <p>Precio: $30</p>
+        <button onclick="addToCart(30, 'Flores')">Agregar al carrito</button>
+        <button onclick="buyNow(30, 'Flores')">Comprar ya</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="planta3.jpg" alt="Cactus">
+      <div class="product-info">
+        <h2>Cactus</h2>
+        <p>Son plantas suculentas adaptadas a climas muy secos, tienen espinas en lugar de hojas y almacenan agua en su tallo siendo fáciles de mantener y vienen en muchas formas y tamaños.</p>
+        <p>Precio: $25</p>
+        <button onclick="addToCart(25, 'Cactus')">Agregar al carrito</button>
+        <button onclick="buyNow(25, 'Cactus')">Comprar ya</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="planta4.jpg" alt="Kit de plantas aromáticas">
+      <div class="product-info">
+        <h2>Kit de plantas aromáticas</h2>
+        <p>Son plantas que desprenden un aroma agradable y muchas se usan en la cocina o con fines medicinales.</p>
+        <p>Precio: $25</p>
+        <button onclick="addToCart(25, 'Kit de plantas aromáticas')">Agregar al carrito</button>
+        <button onclick="buyNow(25, 'Kit de plantas aromáticas')">Comprar ya</button>
+      </div>
+    </div>
+
+    <div class="cart">
+      <h3>Total del carrito: $<span id="cartTotal">0</span></h3>
+      <ul id="cartList"></ul>
+      <button onclick="clearCart()">Vaciar carrito</button>
+    </div>
+
+    <footer>
+      <p><strong>Condiciones del servicio</strong></p>
+      <p>Ayuda y apoyo | Contáctanos</p>
+      <p>Email: gardendreamsbacho@gmail.com</p>
+      <p>Instagram: @dream_garden.life</p>
+      <p>Teléfono: (618) 474 5181</p>
+    </footer>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
